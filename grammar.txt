@@ -1,0 +1,17 @@
+Regras com recursão à esquerda:
+
+[EXPR]
+Original:
+  Expr -> Expr + Termo | Expr - Termo | Termo
+
+Corrigido:
+  Expr -> Termo Expr'
+  Expr' -> Termo Expr' | Termo Expr'| <Vazio>
+
+[TERMO]
+Original:
+  Termo -> Termo * Fator | Termo / Fator | Fator
+
+Corrigido
+  Termo -> Fator Termo'
+  Termo' -> Fator * Termo' | Fator / Termo' | <Vazio>

@@ -1,0 +1,6 @@
+programa
+  string teste;
+  teste = "ABC";
+
+  escreva(teste);
+fimprog.

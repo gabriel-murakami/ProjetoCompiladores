@@ -1,0 +1,8 @@
+programa
+    int a, b;
+    double c;
+    string s;
+
+    a = 100;
+    notDeclaredSymbol = 100;
+fimprog;

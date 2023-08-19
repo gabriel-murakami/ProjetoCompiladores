@@ -1,0 +1,40 @@
+programa
+  int a, b, x, y, z;
+  double numero;
+  string teste;
+
+  leia(a);
+  leia(b);
+  teste = "AWESOME STRING";
+
+  b = 90;
+  escreva(b);
+  escreva(teste);
+
+  se(b == 90) {
+    escreva("b é noventa");
+  } senao {
+    escreva("b não é noventa");
+  }
+
+  a = 120;
+
+  enquanto(b < 0) {
+    escreva(b);
+    b = b - 1;
+  }
+
+  numero = (a + b) / 2.0;
+
+  escolha(teste) {
+    quando "NOT AWESOME STRING":
+      escreva("BAD");
+      pare;
+    quando "AWESOME STRING":
+      escreva("AWESOME");
+      pare;
+    padrao:
+      escreva("NDA");
+      pare;
+  }
+fimprog.
